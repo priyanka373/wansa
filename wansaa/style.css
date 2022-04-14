@@ -1,0 +1,127 @@
+nav{
+    width: 100%; 
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:40px;
+}
+.nav-link{
+    padding-right:100px;
+}
+
+ 
+  .container {
+    width: 100%;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:300px;
+  }
+  .back-video{
+      position: fixed;
+      right:0;
+      bottom:0;
+      /* z-index:-1; */
+  }
+  @media (min-aspect-ratio: 16/9){
+      .back-video
+  {
+      width: 600px;;
+      height:auto;
+  }
+
+  }
+  @media (max-aspect-ratio: 16/9){
+    .back-video
+{
+    width:auto;
+    height:100%;
+}
+
+}
+  .animated-heading {
+      text-align:center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size:100px;
+    
+  }
+  .animated-heading h1{
+      font-size:160px;
+      color:#fff;
+      font-weight:600;
+  }
+  h1 {
+      color: #4b00ff;
+      font-weight: 500;
+      
+  }
+  span#words {
+      font-weight: bolder;
+      font-size: larger;
+  }
+
+  .first{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 60px;  
+    width:100px;
+    height: 100px;
+    padding-left: 100px;
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+    
+  }  
+  .fa-whatsapp {   
+    background: #55ACEE;  
+    color: white;  
+  }  
+    
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  
+  .fa:hover {  
+      opacity: 0.9;  
+  }  
+  
